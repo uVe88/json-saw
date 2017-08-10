@@ -1,0 +1,22 @@
+{
+  "name": "json-saw",
+  "version": "1.0.0",
+  "description": "schema validator",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uVe88/schema-validator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uVe88/schema-validator/issues"
+  },
+  "homepage": "https://github.com/uVe88/schema-validator#readme",
+  "dependencies": {
+    "ajv": "4.9.0"
+  }
+}
