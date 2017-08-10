@@ -1,22 +1,23 @@
 {
   "name": "json-saw",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "schema validator",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "browserify lib/index.js --standalone jsonSaw -o dist/json-saw.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uVe88/schema-validator.git"
+    "url": "git+https://github.com/uVe88/json-saw.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/uVe88/schema-validator/issues"
+    "url": "https://github.com/uVe88/json-saw/issues"
   },
-  "homepage": "https://github.com/uVe88/schema-validator#readme",
+  "homepage": "https://github.com/uVe88/json-saw#readme",
   "dependencies": {
-    "ajv": "4.9.0"
+    "ajv": "^4.9.0"
   }
 }
