@@ -8,6 +8,7 @@
 
 - Multiple schema dependencies
 - Multiple Json Schema versions
+- Support custom ajv configuration
 - Validation with promises
 
 ## Install
