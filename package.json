@@ -1,10 +1,14 @@
 {
   "name": "json-saw",
   "version": "1.0.2",
-  "description": "schema validator",
+  "description": "Manage schema validators contextually",
   "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint **/*.js",
+    "format": "prettier --write **/*.js",
     "dist": "browserify lib/index.js --standalone jsonSaw -o dist/json-saw.js"
   },
   "repository": {
@@ -18,6 +22,15 @@
   },
   "homepage": "https://github.com/uVe88/json-saw#readme",
   "dependencies": {
-    "ajv": "^4.9.0"
-  }
+    "ajv": "^6.5.4"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "eslint": "^5.7.0",
+    "eslint-config-prettier": "^3.1.0",
+    "prettier": "^1.14.3"
+  },
+  "engines": {
+		"node": ">=8"
+	}
 }
