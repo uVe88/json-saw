@@ -30,7 +30,7 @@ const validator = saw.getValidator('name')
 
 (async () => {
     const invalid = await validator.validate(data, schema)
-    if (invalid) console.log(invalid.errors);
+    if (invalid) console.log(invalid.errors)
 })()
 
 ```
